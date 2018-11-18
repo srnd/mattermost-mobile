@@ -3,7 +3,7 @@
 exports[`PostAttachmentOpenGraph should match snapshot, without image and description 1`] = `null`;
 
 exports[`PostAttachmentOpenGraph should match snapshot, without image and description 2`] = `
-<View
+<Component
   style={
     Object {
       "borderColor": "rgba(61,60,64,0.2)",
@@ -15,14 +15,14 @@ exports[`PostAttachmentOpenGraph should match snapshot, without image and descri
     }
   }
 >
-  <View
+  <Component
     style={
       Object {
         "flex": 1,
       }
     }
   >
-    <Text
+    <Component
       ellipsizeMode="tail"
       numberOfLines={1}
       style={
@@ -34,9 +34,9 @@ exports[`PostAttachmentOpenGraph should match snapshot, without image and descri
       }
     >
       Mattermost
-    </Text>
-  </View>
-  <View
+    </Component>
+  </Component>
+  <Component
     style={
       Object {
         "flex": 1,
@@ -53,7 +53,7 @@ exports[`PostAttachmentOpenGraph should match snapshot, without image and descri
         }
       }
     >
-      <Text
+      <Component
         ellipsizeMode="tail"
         numberOfLines={3}
         style={
@@ -70,14 +70,14 @@ exports[`PostAttachmentOpenGraph should match snapshot, without image and descri
         }
       >
         Title
-      </Text>
+      </Component>
     </TouchableOpacity>
-  </View>
-</View>
+  </Component>
+</Component>
 `;
 
 exports[`PostAttachmentOpenGraph should match snapshot, without site_name 1`] = `
-<View
+<Component
   style={
     Object {
       "borderColor": "rgba(61,60,64,0.2)",
@@ -89,7 +89,7 @@ exports[`PostAttachmentOpenGraph should match snapshot, without site_name 1`] = 
     }
   }
 >
-  <View
+  <Component
     style={
       Object {
         "flex": 1,
@@ -106,7 +106,7 @@ exports[`PostAttachmentOpenGraph should match snapshot, without site_name 1`] = 
         }
       }
     >
-      <Text
+      <Component
         ellipsizeMode="tail"
         numberOfLines={3}
         style={
@@ -123,14 +123,14 @@ exports[`PostAttachmentOpenGraph should match snapshot, without site_name 1`] = 
         }
       >
         Title
-      </Text>
+      </Component>
     </TouchableOpacity>
-  </View>
-</View>
+  </Component>
+</Component>
 `;
 
 exports[`PostAttachmentOpenGraph should match snapshot, without title and url 1`] = `
-<View
+<Component
   style={
     Object {
       "borderColor": "rgba(61,60,64,0.2)",
@@ -142,7 +142,7 @@ exports[`PostAttachmentOpenGraph should match snapshot, without title and url 1`
     }
   }
 >
-  <View
+  <Component
     style={
       Object {
         "flex": 1,
@@ -159,7 +159,7 @@ exports[`PostAttachmentOpenGraph should match snapshot, without title and url 1`
         }
       }
     >
-      <Text
+      <Component
         ellipsizeMode="tail"
         numberOfLines={3}
         style={
@@ -176,23 +176,23 @@ exports[`PostAttachmentOpenGraph should match snapshot, without title and url 1`
         }
       >
         https://mattermost.com/
-      </Text>
+      </Component>
     </TouchableOpacity>
-  </View>
-</View>
+  </Component>
+</Component>
 `;
 
 exports[`PostAttachmentOpenGraph should match state and snapshot, on renderDescription 1`] = `null`;
 
 exports[`PostAttachmentOpenGraph should match state and snapshot, on renderDescription 2`] = `
-<View
+<Component
   style={
     Object {
       "flex": 1,
     }
   }
 >
-  <Text
+  <Component
     ellipsizeMode="tail"
     numberOfLines={5}
     style={
@@ -204,14 +204,14 @@ exports[`PostAttachmentOpenGraph should match state and snapshot, on renderDescr
     }
   >
     Description
-  </Text>
-</View>
+  </Component>
+</Component>
 `;
 
 exports[`PostAttachmentOpenGraph should match state and snapshot, on renderImage 1`] = `null`;
 
 exports[`PostAttachmentOpenGraph should match state and snapshot, on renderImage 2`] = `
-<View
+<Component
   style={
     Object {
       "alignItems": "center",
@@ -246,5 +246,5 @@ exports[`PostAttachmentOpenGraph should match state and snapshot, on renderImage
       }
     />
   </TouchableWithoutFeedback>
-</View>
+</Component>
 `;
