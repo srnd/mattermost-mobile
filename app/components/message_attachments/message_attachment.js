@@ -112,11 +112,7 @@ export default class MessageAttachment extends PureComponent {
             }
         });
 
-        return (
-            <React.Fragment>
-                {content}
-            </React.Fragment>
-        );
+        return content;
     };
 
     measurePost = (event) => {
